@@ -1,0 +1,50 @@
+﻿@model Evolent.ContactManager.Web.Models.Contact
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Contact</legend>
+
+    <div style="width:50%">
+         @Html.DisplayNameFor(model => model.FirstName)
+    </div>
+    <div style="width:50%">
+        @Html.DisplayFor(model => model.FirstName)
+    </div>
+
+    <div  style="width:50%">
+         @Html.DisplayNameFor(model => model.LastName)
+    </div>
+    <div  style="width:50%">
+        @Html.DisplayFor(model => model.LastName)
+    </div>
+
+    <div  style="width:50%">
+         @Html.DisplayNameFor(model => model.Email)
+    </div>
+    <div  style="width:50%">
+        @Html.DisplayFor(model => model.Email)
+    </div>
+
+    <div  style="width:50%">
+         @Html.DisplayNameFor(model => model.PhoneNumber)
+    </div>
+    <div  style="width:50%">
+        @Html.DisplayFor(model => model.PhoneNumber)
+    </div>
+
+    <div  style="width:50%">
+         @Html.DisplayNameFor(model => model.Status)
+    </div>
+    <div  style="width:50%">
+        @Html.DisplayFor(model => model.Status)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.ContactID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

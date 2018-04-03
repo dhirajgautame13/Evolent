@@ -1,0 +1,76 @@
+﻿@model Evolent.ContactManager.Web.Models.Contact
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Contact</legend>
+    <table>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName) :
+            </th>
+            <td>
+                <div>
+                    @Html.DisplayFor(model => model.FirstName)
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <div>
+                    @Html.DisplayNameFor(model => model.LastName) :
+                </div>
+            </th>
+            <td>
+                <div>
+                    @Html.DisplayFor(model => model.LastName)
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <div>
+                    @Html.DisplayNameFor(model => model.Email) :
+                </div>
+            </th>
+            <td>
+                <div>
+                    @Html.DisplayFor(model => model.Email)
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <div>
+                    @Html.DisplayNameFor(model => model.PhoneNumber) :
+                </div>
+            </th>
+            <td>
+                <div>
+                    @Html.DisplayFor(model => model.PhoneNumber)
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+                <div>
+                    @Html.DisplayNameFor(model => model.Status) :
+                </div>
+            </th>
+            <td>
+                <div>
+                    @Html.DisplayFor(model => model.Status)
+                </div>
+            </td>
+        </tr>      
+    </table>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ContactID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
