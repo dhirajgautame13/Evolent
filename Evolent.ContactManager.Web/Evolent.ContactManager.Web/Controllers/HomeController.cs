@@ -8,13 +8,14 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using Newtonsoft.Json;
+using System.Configuration;
 
 namespace Evolent.ContactManager.Web.Controllers
 {
     public class HomeController : Controller
     {
         //Hosted web API REST Service base url  
-        string Baseurl = "http://localhost:65096/";
+        string Baseurl = ConfigurationManager.AppSettings["BaseWebAPIUrl"].ToString();
         public async Task<ActionResult> Index()
         {
             List<Contact> contact = new List<Contact>();
