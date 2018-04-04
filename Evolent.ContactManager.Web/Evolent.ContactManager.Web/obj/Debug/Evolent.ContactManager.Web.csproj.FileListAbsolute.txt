@@ -81,6 +81,6 @@ D:\Perosnal\Vallence\Evolent\Evolent.ContactManager.Web\Evolent.ContactManager.W
 D:\Perosnal\Vallence\Evolent\Evolent.ContactManager.Web\Evolent.ContactManager.Web\bin\ru\System.Spatial.resources.dll
 D:\Perosnal\Vallence\Evolent\Evolent.ContactManager.Web\Evolent.ContactManager.Web\bin\zh-Hans\System.Spatial.resources.dll
 D:\Perosnal\Vallence\Evolent\Evolent.ContactManager.Web\Evolent.ContactManager.Web\bin\zh-Hant\System.Spatial.resources.dll
-D:\Perosnal\Vallence\Evolent\Evolent.ContactManager.Web\Evolent.ContactManager.Web\obj\Debug\Evolent.ContactManager.Web.csprojResolveAssemblyReference.cache
 D:\Perosnal\Vallence\Evolent\Evolent.ContactManager.Web\Evolent.ContactManager.Web\obj\Debug\Evolent.ContactManager.Web.dll
 D:\Perosnal\Vallence\Evolent\Evolent.ContactManager.Web\Evolent.ContactManager.Web\obj\Debug\Evolent.ContactManager.Web.pdb
+D:\Perosnal\Vallence\Evolent\Evolent.ContactManager.Web\Evolent.ContactManager.Web\obj\Debug\Evolent.ContactManager.Web.csprojResolveAssemblyReference.cache
